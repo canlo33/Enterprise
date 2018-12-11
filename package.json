@@ -3,10 +3,13 @@
     "version": "1.0.0",
     "description": "Can Lo - Test",
     "dependencies": {
-        "restify": "4.1.1",
+        "restify": "^7.3.0",
         "save": "2.3.0"
     },
     "author": "CanLo",
     "private": true,
-    "main": "index.js"
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	}
 }
