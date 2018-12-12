@@ -1,6 +1,6 @@
 var SERVER_NAME = 'Can-Venkatesh api'
 var PORT = process.env.PORT;
-var HOST = '127.0.0.1';
+
 
 
 var restify = require('restify')
@@ -11,7 +11,7 @@ var restify = require('restify')
 
   , server = restify.createServer({ name: SERVER_NAME})
 
-  server.listen(PORT, HOST, function () {
+  server.listen(PORT, function () {
   console.log('Server %s started at %s', server.name, server.url)
   console.log('Resources: /patients')
 
