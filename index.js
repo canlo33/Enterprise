@@ -1,5 +1,5 @@
 var SERVER_NAME = 'Can-Venkatesh api'
-var PORT = 9001;
+var PORT = process.env.PORT;
 var HOST = '127.0.0.1';
 
 
